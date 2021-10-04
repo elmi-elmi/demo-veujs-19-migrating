@@ -12,8 +12,8 @@ export default {
   methods: {
     viewProjects() {
       this.$emit('list-projects', this.id);
-    },
-  },
+    }
+  }
 };
 </script>
 
